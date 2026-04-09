@@ -1,5 +1,5 @@
 {
-  "name": "error_logger",
+  "name": "retry_handler",
   "description": "",
   "version": 1,
   "private": false,
@@ -8,7 +8,7 @@
     "number": 0,
     "provider": "workato_recipe_function",
     "name": "execute",
-    "as": "f6a751eb",
+    "as": "3be8e4d1",
     "keyword": "trigger",
     "input": {
     },
@@ -18,20 +18,20 @@
         "keyword": "action",
         "input": {
         },
-        "uuid": "863b65f9-a105-47b5-b607-0040f1e275c2"
+        "uuid": "05e4e921-f0d0-4088-ab18-9095bbb6ce47"
       },
       {
         "number": 2,
         "provider": "workato_recipe_function",
         "name": "return_result",
-        "as": "53a83f23",
+        "as": "ac0d7f4a",
         "keyword": "action",
         "input": {
         },
-        "uuid": "f83ac80c-effa-4212-835d-a6758d557031"
+        "uuid": "22db5f85-42d3-4112-9146-60537e516e02"
       }
     ],
-    "uuid": "773a95ae-10c1-492b-a5d9-4fee6361c0cf",
+    "uuid": "c40184ad-d990-40bf-b857-5334f9d730e8",
     "unfinished": false
   },
   "config": [
