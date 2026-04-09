@@ -1,0 +1,45 @@
+{
+  "name": "error_logger",
+  "description": "",
+  "version": 1,
+  "private": false,
+  "concurrency": 1,
+  "code": {
+    "number": 0,
+    "provider": "workato_recipe_function",
+    "name": "execute",
+    "as": "f6a751eb",
+    "keyword": "trigger",
+    "input": {
+    },
+    "block": [
+      {
+        "number": 1,
+        "keyword": "action",
+        "input": {
+        },
+        "uuid": "863b65f9-a105-47b5-b607-0040f1e275c2"
+      },
+      {
+        "number": 2,
+        "provider": "workato_recipe_function",
+        "name": "return_result",
+        "as": "53a83f23",
+        "keyword": "action",
+        "input": {
+        },
+        "uuid": "f83ac80c-effa-4212-835d-a6758d557031"
+      }
+    ],
+    "uuid": "773a95ae-10c1-492b-a5d9-4fee6361c0cf",
+    "unfinished": false
+  },
+  "config": [
+    {
+      "keyword": "application",
+      "provider": "workato_recipe_function",
+      "skip_validation": false,
+      "account_id": null
+    }
+  ]
+}
