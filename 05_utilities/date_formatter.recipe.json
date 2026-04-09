@@ -1,0 +1,45 @@
+{
+  "name": "date_formatter",
+  "description": "",
+  "version": 1,
+  "private": false,
+  "concurrency": 1,
+  "code": {
+    "number": 0,
+    "provider": "workato_recipe_function",
+    "name": "execute",
+    "as": "ca95eb8b",
+    "keyword": "trigger",
+    "input": {
+    },
+    "block": [
+      {
+        "number": 1,
+        "keyword": "action",
+        "input": {
+        },
+        "uuid": "1e1d8bb2-b6b4-4c65-99dd-e7b74b0d85c4"
+      },
+      {
+        "number": 2,
+        "provider": "workato_recipe_function",
+        "name": "return_result",
+        "as": "2daeb8e5",
+        "keyword": "action",
+        "input": {
+        },
+        "uuid": "a7985424-14ea-40ea-b145-abb7bab1c8e5"
+      }
+    ],
+    "uuid": "54db21aa-52c7-4fd8-8868-1cdee373f22d",
+    "unfinished": false
+  },
+  "config": [
+    {
+      "keyword": "application",
+      "provider": "workato_recipe_function",
+      "skip_validation": false,
+      "account_id": null
+    }
+  ]
+}
