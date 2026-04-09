@@ -1,5 +1,5 @@
 {
-  "name": "date_formatter",
+  "name": "json_parser",
   "description": "",
   "version": 1,
   "private": false,
@@ -8,7 +8,7 @@
     "number": 0,
     "provider": "workato_recipe_function",
     "name": "execute",
-    "as": "ca95eb8b",
+    "as": "bb0d6049",
     "keyword": "trigger",
     "input": {
     },
@@ -18,20 +18,20 @@
         "keyword": "action",
         "input": {
         },
-        "uuid": "1e1d8bb2-b6b4-4c65-99dd-e7b74b0d85c4"
+        "uuid": "8d2bdd6b-c7e9-4b14-8ac2-d84fc938d173"
       },
       {
         "number": 2,
         "provider": "workato_recipe_function",
         "name": "return_result",
-        "as": "2daeb8e5",
+        "as": "679b61d7",
         "keyword": "action",
         "input": {
         },
-        "uuid": "a7985424-14ea-40ea-b145-abb7bab1c8e5"
+        "uuid": "7bcefdf2-e832-4f5b-9e57-4e0c7a8a7c05"
       }
     ],
-    "uuid": "54db21aa-52c7-4fd8-8868-1cdee373f22d",
+    "uuid": "5dfe5c59-056a-49ab-9d56-d8e67b552356",
     "unfinished": false
   },
   "config": [
