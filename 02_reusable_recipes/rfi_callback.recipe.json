@@ -1,7 +1,7 @@
 {
   "name": "rfi_callback",
   "description": "",
-  "version": 1,
+  "version": 3,
   "private": false,
   "concurrency": 1,
   "code": {
@@ -22,6 +22,32 @@
       },
       {
         "number": 2,
+        "keyword": "if",
+        "input": {
+          "type": "compound",
+          "operand": "and",
+          "conditions": [
+            {
+              "operand": "starts_with",
+              "lhs": "a",
+              "rhs": "b",
+              "uuid": "bfbab265-a293-4cd0-b433-eda91d6215a2"
+            }
+          ]
+        },
+        "block": [
+          {
+            "number": 3,
+            "keyword": "action",
+            "input": {
+            },
+            "uuid": "b558a64a-8770-4074-b129-6bddac30201d"
+          }
+        ],
+        "uuid": "24201e80-ec3a-41b6-9a7f-ef4cb7954881"
+      },
+      {
+        "number": 4,
         "provider": "workato_recipe_function",
         "name": "return_result",
         "as": "0e2b7b9f",
