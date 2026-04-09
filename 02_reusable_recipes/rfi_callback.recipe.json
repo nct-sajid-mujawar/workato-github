@@ -1,7 +1,7 @@
 {
   "name": "rfi_callback",
   "description": "",
-  "version": 3,
+  "version": 4,
   "private": false,
   "concurrency": 1,
   "code": {
@@ -29,9 +29,9 @@
           "conditions": [
             {
               "operand": "starts_with",
-              "lhs": "a",
-              "rhs": "b",
-              "uuid": "bfbab265-a293-4cd0-b433-eda91d6215a2"
+              "lhs": "c",
+              "rhs": "c",
+              "uuid": "b26696e6-b5eb-428e-9102-41b9b7e6d836"
             }
           ]
         },
@@ -41,13 +41,39 @@
             "keyword": "action",
             "input": {
             },
+            "uuid": "bb01a4e7-666a-4597-bb6b-822df0781e49"
+          }
+        ],
+        "uuid": "03c189b9-c589-4afc-9d12-a8487075e6f4"
+      },
+      {
+        "number": 4,
+        "keyword": "if",
+        "input": {
+          "type": "compound",
+          "operand": "and",
+          "conditions": [
+            {
+              "operand": "starts_with",
+              "lhs": "a",
+              "rhs": "b",
+              "uuid": "bfbab265-a293-4cd0-b433-eda91d6215a2"
+            }
+          ]
+        },
+        "block": [
+          {
+            "number": 5,
+            "keyword": "action",
+            "input": {
+            },
             "uuid": "b558a64a-8770-4074-b129-6bddac30201d"
           }
         ],
         "uuid": "24201e80-ec3a-41b6-9a7f-ef4cb7954881"
       },
       {
-        "number": 4,
+        "number": 6,
         "provider": "workato_recipe_function",
         "name": "return_result",
         "as": "0e2b7b9f",
