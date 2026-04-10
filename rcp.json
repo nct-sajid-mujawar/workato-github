@@ -1,0 +1,123 @@
+{
+  "name": "rfi_callback",
+  "description": "",
+  "version": 5,
+  "private": false,
+  "concurrency": 1,
+  "code": {
+    "number": 0,
+    "provider": "workato_recipe_function",
+    "name": "execute",
+    "as": "7e3316f6",
+    "keyword": "trigger",
+    "input": {
+    },
+    "block": [
+      {
+        "number": 1,
+        "keyword": "action",
+        "input": {
+        },
+        "uuid": "6e408a66-b651-440e-be82-776c16ff5a13"
+      },
+      {
+        "number": 2,
+        "keyword": "if",
+        "input": {
+          "type": "compound",
+          "operand": "and",
+          "conditions": [
+            {
+              "operand": "starts_with",
+              "lhs": "c",
+              "rhs": "c",
+              "uuid": "b26696e6-b5eb-428e-9102-41b9b7e6d836"
+            }
+          ]
+        },
+        "block": [
+          {
+            "number": 3,
+            "keyword": "action",
+            "input": {
+            },
+            "uuid": "bb01a4e7-666a-4597-bb6b-822df0781e49"
+          }
+        ],
+        "uuid": "03c189b9-c589-4afc-9d12-a8487075e6f4"
+      },
+      {
+        "number": 4,
+        "keyword": "if",
+        "input": {
+          "type": "compound",
+          "operand": "and",
+          "conditions": [
+            {
+              "operand": "starts_with",
+              "lhs": "a",
+              "rhs": "b",
+              "uuid": "bfbab265-a293-4cd0-b433-eda91d6215a2"
+            }
+          ]
+        },
+        "block": [
+          {
+            "number": 5,
+            "keyword": "action",
+            "input": {
+            },
+            "uuid": "b558a64a-8770-4074-b129-6bddac30201d"
+          }
+        ],
+        "uuid": "24201e80-ec3a-41b6-9a7f-ef4cb7954881"
+      },
+      {
+        "number": 6,
+        "keyword": "if",
+        "input": {
+          "type": "compound",
+          "operand": "and",
+          "conditions": [
+            {
+              "operand": "not_contains",
+              "lhs": "erwer",
+              "rhs": "wrewerwer",
+              "uuid": "233ab7ac-cabe-44b2-8feb-861a0fb015a6"
+            }
+          ]
+        },
+        "block": [
+          {
+            "number": 7,
+            "keyword": "action",
+            "input": {
+            },
+            "uuid": "8a8abad0-c847-42f7-8d54-ea2f26c3081f"
+          }
+        ],
+        "uuid": "442a0af8-e073-4180-8d6a-ba0ea88e4ad4"
+      },
+      {
+        "number": 8,
+        "provider": "workato_recipe_function",
+        "name": "return_result",
+        "as": "0e2b7b9f",
+        "keyword": "action",
+        "input": {
+        },
+        "uuid": "e4723849-1ae6-4c1e-8b74-0a06fad744a9"
+      }
+    ],
+    "uuid": "c4cdebb8-aa46-440a-8acf-793dacbc1837",
+    "unfinished": false
+  },
+  "config": [
+    {
+      "keyword": "application",
+      "provider": "workato_recipe_function",
+      "skip_validation": false,
+      "account_id": null
+    }
+  ]
+}
