@@ -21,6 +21,17 @@
       "type": "date-time",
       "read_only": true,
       "hidden": true
+    },
+    {
+      "id": "de6b98cb-57be-4aab-a1c4-2cf0eac1063d",
+      "title": "Column 1",
+      "type": "date-time",
+      "read_only": false,
+      "hidden": false,
+      "required": false,
+      "hint": "bbbbbbbb",
+      "metadata": {
+      }
     }
   ],
   "project_name": "ACC-TO-PROCORE-DEV"
