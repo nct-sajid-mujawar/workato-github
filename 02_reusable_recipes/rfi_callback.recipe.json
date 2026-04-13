@@ -1,8 +1,7 @@
 {
   "name": "rfi_callback",
-  "description": "",
-  "version": 5,
-  "private": false,
+  "version": 3,
+  "private": true,
   "concurrency": 1,
   "code": {
     "number": 0,
