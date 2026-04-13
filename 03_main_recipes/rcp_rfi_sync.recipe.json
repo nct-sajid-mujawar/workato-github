@@ -1,8 +1,7 @@
 {
   "name": "rcp_rfi_sync",
-  "description": "",
   "version": 1,
-  "private": false,
+  "private": true,
   "concurrency": 1,
   "code": {
     "number": 0,
