@@ -1,7 +1,8 @@
 {
   "name": "json_parser",
+  "description": "",
   "version": 1,
-  "private": true,
+  "private": false,
   "concurrency": 1,
   "code": {
     "number": 0,
