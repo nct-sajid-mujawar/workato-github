@@ -1,7 +1,8 @@
 {
   "name": "rfi_callback",
-  "version": 3,
-  "private": true,
+  "description": "",
+  "version": 6,
+  "private": false,
   "concurrency": 1,
   "code": {
     "number": 0,
@@ -80,7 +81,7 @@
           "conditions": [
             {
               "operand": "not_contains",
-              "lhs": "erwer",
+              "lhs": "erwerfdsfsdfdsf",
               "rhs": "wrewerwer",
               "uuid": "233ab7ac-cabe-44b2-8feb-861a0fb015a6"
             }
